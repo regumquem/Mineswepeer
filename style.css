@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    flex-direction: column;
+    color: white;
+}
+
+.kosong {
+    text-align: center;
+    font-size: 46px;
+}
+
+.title {
+    margin: 20px;
+}
+
+.subtext {
+    padding-bottom: 20px;
+}
+
+
+.grid {
+    height: 400px;
+    width:  400px;
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: rgb(211, 205, 205);
+}
+
+.grid div:hover {
+    opacity: 0.2;
+}
+
+.grid div {
+    border: 3px solid rgb(109, 106, 106);
+    height: 40px;
+    width: 40px;
+}
+
+
+.checked {
+    text-align: center;
+    background-color: rgb(168, 161, 161);
+}
+
+.bomb {
+    background-color: rgb(211, 205, 205);
+}
